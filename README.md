@@ -57,13 +57,7 @@ The project is built using Python 3. The required libraries are listed in `requi
 
 ### 3.2. Installation
 
-1.  Clone the repository:
-    ```bash
-    git clone [your-repo-link]
-    cd [your-repo-directory]
-    ```
-
-2.  Install the required packages:
+1.  Install the required packages:
     ```bash
     pip install -r requirements.txt
     ```

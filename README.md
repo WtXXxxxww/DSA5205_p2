@@ -54,7 +54,6 @@ The project is built using Python 3. The required libraries are listed in `requi
 -   statsmodels
 -   matplotlib
 -   requests
--   lightgbm (optional, included in the notebook for experimentation)
 
 ### 3.2. Installation
 
@@ -93,7 +92,6 @@ The final output will include performance metrics tables and plots comparing the
 ```
 .
 ├── DSA5205 Project2.ipynb      # The main Jupyter Notebook with all code and analysis.
-├── Project2.pdf                # The project description and requirements document.
 └── README.md                   # This file.
 ```
 
@@ -111,7 +109,7 @@ The results are thoroughly analyzed to determine the strategy's effectiveness, i
 
 ## 6. Conclusion & Future Work
 
-This project successfully implements an end-to-end quantitative trading strategy. The analysis reveals [**Here, you can add a brief summary of your results, e.g., "that the strategy outperformed the SPY benchmark on a risk-adjusted basis, generating a positive and statistically significant alpha."**].
+This project successfully implements an end-to-end quantitative trading strategy. The analysis reveals that the strategy generated a positive monthly alpha of 1.25%, though it was not statistically significant. Furthermore, the strategy demonstrated significantly higher market risk than the benchmark, with a Beta of approximately 1.5.
 
 Potential areas for future improvement include:
 -   Expanding the asset pool to other sectors or markets.
